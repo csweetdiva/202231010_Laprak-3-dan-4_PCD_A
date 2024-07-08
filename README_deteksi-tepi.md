@@ -18,8 +18,8 @@ Gambar grayscale tadi akan dideteksi tepinya menggunakan algoritma Canny. Algori
 - Piksel dengan gradien intensitas di bawah threshold pertama (100) akan dibuang (tidak dianggap sebagai tepi).
 - Piksel dengan gradien intensitas di atas threshold kedua (150) akan dianggap sebagai tepi.
 - Piksel dengan gradien intensitas di antara kedua threshold akan dianggap sebagai tepi hanya jika mereka terhubung dengan piksel yang intensitasnya di atas threshold kedua.
-### 6. Perbandingan Gambar Grayscale dengan Gambar Deteksi Tepi.
-Saya membandingkan gambar grayscale dengan gambar hasil deteksi tepi dalam satu figure, yang memudahkan untuk melihat perbedaan antara keduanya dengan menggunakan fungsi-fungsi dari library Matplotlib.
+### 6. Perbandingan Gambar Grayscale dengan Gambar Deteksi Garis
+Saya membandingkan gambar grayscale dengan gambar hasil deteksi garis dalam satu figure, yang memudahkan untuk melihat perbedaan antara keduanya dengan menggunakan fungsi-fungsi dari library Matplotlib.
 
 ## II. Deteksi Garis
 ### 1. Import Library
